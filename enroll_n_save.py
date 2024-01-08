@@ -9,7 +9,7 @@ import face_recognition
 known_face_encodings = []
 known_faces_names = []
 
-# Functions from Prompt 1
+# Functions from Part 1
 def save_face_encoding(name, face_encoding):
     with open(f"{name}_encoding.npy", "wb") as file:
         np.save(file, face_encoding)
