@@ -71,7 +71,7 @@ label2.place(x=800, y=200)
 # Function to open attendance UI
 
 
-# Enroll Button (Triggering Function from Prompt 1)
+# Enroll Button (Triggering Function from Part 1)
 enroll_button = tk.Button(
     window,
     text="Enroll New Person",
@@ -87,7 +87,7 @@ enroll_button.place(x=200, y=450)
 
 
 #from attendance_main import mark_attendance_ui
-# Mark Attendance Button (Triggering Function from Prompt 2)
+# Mark Attendance Button (Triggering Function from Part 2)
 mark_attendance_button = tk.Button(
     window,
     text="Mark Attendance",
