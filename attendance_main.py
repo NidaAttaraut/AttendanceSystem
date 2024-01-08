@@ -7,7 +7,7 @@ import face_recognition
 
 from enroll_n_save import enroll_face
 
-# Functions from Prompt 2
+# Functions from Part 2
 def load_enrolled_data():
     enrolled_data = []
     try:
